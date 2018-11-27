@@ -1,0 +1,20 @@
+<ion-header>
+        <ion-navbar>
+          <ion-title>Action Sheets</ion-title>
+        </ion-navbar>
+      </ion-header>
+      
+      <ion-content padding class="action-sheets-basic-page">
+        <button ion-button block (click)="openMenu()">
+          Show Action Sheet
+        </button>
+
+        <button ion-button block color='manggis' (click)="showAlert()">
+          Show Basic Alert
+        </button>
+
+        <button ion-button block color='gold' (click)="showConfirm()">
+          Show Confirm Alert
+        </button>
+
+      </ion-content>
